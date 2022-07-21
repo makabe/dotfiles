@@ -1,0 +1,7 @@
+bind generic G none
+
+bind generic g move-first-line
+bind generic G move-last-line
+
+set log-options = --show-signature
+set diff-options = --show-signature

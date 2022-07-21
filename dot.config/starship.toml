@@ -1,0 +1,18 @@
+[docker_context]
+disabled = false
+
+[time]
+disabled = false
+
+[directory]
+truncate_to_repo = false
+fish_style_pwd_dir_length = 1
+
+[[battery.display]]
+threshold = 10
+style = "bold red"
+
+[[battery.display]]
+threshold = 30
+style = "bold yellow"
+

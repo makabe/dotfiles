@@ -1,0 +1,17 @@
+/dot.gitconfig.local
+/dot.tmux/plugins/*
+!/dot.tmux/plugins/.keep
+/dot.vim/*
+!/dot.vim/autoload/
+/dot.vim/autoload/*
+!/dot.vim/autoload/.keep
+!/dot.vim/plugged/
+/dot.vim/plugged/*
+!/dot.vim/plugged/.keep
+!/dot.vim/swap/
+/dot.vim/swap/*
+!/dot.vim/swap/.keep
+!/dot.vim/after/
+/dot.zsh/*
+!/dot.zsh/.zprofile
+!/dot.zsh/.zshrc

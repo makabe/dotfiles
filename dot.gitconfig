@@ -1,0 +1,43 @@
+[core]
+	pager = delta
+	editor = vim -c \"set fenc=utf-8\"
+[diff]
+	tool = delta
+[merge]
+	ff = false
+[push]
+	default = tracking
+[interactive]
+	diffFilter = delta --color-only
+[color]
+	ui = auto
+[http]
+	postBuffer = 524288000
+[alias]
+	co = checkout
+	cot = checkout --track
+	st = status
+	df = diff -w
+	dfn = diff --name-only
+	dfw = diff -w --color-words
+	dfr = diff -w -U100 --color-words
+	br = branch
+	pr = remote prune origin
+	unmerge = reset --hard HEAD
+	uncommit = reset --soft HEAD~
+	unstage = reset HEAD
+	pl = pull --ff
+	vdf = difftool --tool=vimdiff --no-prompt
+	save = stash -u
+[delta]
+	line-numbers = true
+	plus-style = syntax 22
+	minus-style = syntax 52
+[tig]
+	ignore-space = all
+	line-graphics = utf-8
+	main-view = id date author commit-title:graph=yes,refs=yes
+[init]
+	defaultBranch = main
+[include]
+	path = ~/.gitconfig.local
