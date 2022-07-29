@@ -262,7 +262,7 @@ let g:lightline =  {
 \}
 
 function! LightlineGitBranch() abort
-  let l:branch = fugitive#head()
+  let l:branch = FugitiveHead()
   return strlen(l:branch) ? "\ue0a0 ".l:branch : ''
 endfunction
 
