@@ -47,7 +47,7 @@ zshaddhistory() {
 }
 
 # エイリアス
-alias ls='exa -a -s Name --color=auto'
+alias ls='exa -a -s Name --color=auto --group-directories-first'
 alias ll='ls -lBg --time-style=long-iso --git'
 alias tree='ls -T'
 alias tmux='tmux -2'
