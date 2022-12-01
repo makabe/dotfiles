@@ -22,6 +22,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'thinca/vim-quickrun'
 Plug 'thinca/vim-ref'
 Plug 'tpope/vim-fugitive'
+Plug 'ConradIrwin/vim-bracketed-paste'
 
 call plug#end()
 
